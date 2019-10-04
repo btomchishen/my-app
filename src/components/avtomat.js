@@ -5,6 +5,7 @@ class Avtomatf extends React.Component{
         return(
             <div>
                 Avtomat
+                <a href="https://vsim.ua/Podii/urnu-dlya-sobachih-fekaliy-vstanovili-v-parku-chekmana-10661645.html">Avtomat</a>
             </div>
         )
     }

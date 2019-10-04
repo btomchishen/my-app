@@ -1,13 +1,91 @@
-a{
-  text-decoration: none;
+html{
+  margin: 0;
+  padding: 0;
 }
 
+
 .nav ul{
-  height: 100px;
+  height: 25px;
   display: flex;
   justify-content: space-around;
+  margin-right: 50px;
 }
 
 .nav li{
   list-style-type: none;
+}
+
+.nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.nav a:hover{
+  color: black;
+  border-bottom: 1.5px solid black;
+}
+
+.nav a:active{
+  color: black;
+}
+
+.home-vistavki-header{
+  margin-left: 100px;
+  font-size: 44px;
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: 600;
+}
+
+.home-header{
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.home-vistavki-text{
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.home-vistavki-location{
+  margin-left: 250px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.home-vistavki-time{
+  margin-left: 250px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.home-vistavki-phone{
+  margin-left: 250px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.map{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.map-header{
+  font-size: 44px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.home-footer{
+  text-align: center;
+  padding-bottom: 5px;
+  background-color: grey;
 }

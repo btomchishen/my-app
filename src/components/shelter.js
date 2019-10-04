@@ -5,6 +5,7 @@ class Shelterf extends React.Component{
         return(
             <div>
                 Shelter
+                <a href="http://happyhelper.happypaw.ua/prytulky_khmelnitsky">Притулки</a>
             </div>
         )
     }
