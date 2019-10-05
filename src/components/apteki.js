@@ -1,30 +1,35 @@
 import React from 'react'
 
-class Aptekif extends React.Component{
-    render(){
-        return(
-                <div>
+class Aptekif extends React.Component {
+    render() {
+        return (
+            <div>
                 <div className="header">
-                    ВЕТЕРЕНАРНІ АПТЕКИ
+                    ВЕТЕРИНАРНІ ЛІКАРНІ, АПТЕКИ, АМБУЛАТОРІЇ
                 </div>
                 <div className="info">
-                &emsp;Сквери і парки – це самі найкращі місця для вигулу домашніх улюбленців, бо на вулицях міста завжди багато шуму і метушні. У людних місцях собаку потрібно тримати на повідку, інакше домашній улюбленець може злякатися шуму машини, кинутися під неї або навіть втекти. Для екології міста і безпеки собак важливо вигулювати в спеціально відведених, офіційно дозволених для цього місцях. Тоді команди власника собака буде виконувати уважно та зосереджено.
-                Безкоштовні місця для вигулу та дресирування собак – це поширений європейський досвід. Згідно з “Положенням про функціонування місць та зон для вигулу тварин в Києві” площа зони повинна бути не менше 30 відсотків від загальної площі міського парку або скверу, який знаходиться у районі. За цим стандартом влада столиці офіційно і виділила місця для вигулу домашніх тварин.
-                <p className="accept">За інформацією районних в м. Хмельницькому державних адміністрацій вигул собак дозволено:</p>
+                <p className="accept">Такі ветеринарні заклади знаходяться в наступних місцях:</p>
                 </div>
                 <div className="content">
                     <div className="content-flex">
                         <div className="content-photo">
-                            <img src={require("../img/area/denropark.jpg")} />
+                            <img src={require("../img/apteki/bile-iklo.png")} />
                         </div>
-                        <div className="content-text">
+                        <div className="content-text-apteki">
                             <div className="content-header">
-                                Місце вигулу у мкр. Виставка - Дендропарк
+                                Ветеринарна аптека-амбулаторія "Біле Ікло"
                             </div>
                             <div className="content-location">
-                                Розташування: <strong>Старокостянтинівське шосе</strong>
+                                Широкий спектр ветеринарних послуг:<br />
+                                -Лабораторні дослідження (крові і інше) <br />
+                                -Вакцинація<br />
+                                -Чіпування <br />
+                                -Терапія та хірургія дрібних та с\г тварин<br />
+                                -Виїзд лікаря додому<br />
+                                Номера телефоу: +380-98-414-2612 +38-067-862-4046 <br />
+                                Розташування: <strong>вул.Проспект Миру 80/1, Район Виставка</strong><br />
+                                Графік роботи: з 10-00 до 20-00 без вихідних
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -32,23 +37,75 @@ class Aptekif extends React.Component{
                 <div className="content">
                     <div className="content-flex">
                         <div className="content-photo">
-                            <img src={require("../img/area/checkman.jpg")} />
+                            <img src={require("../img/apteki/ivet.jpg")} />
                         </div>
-                        <div className="content-text">
+                        <div className="content-text-apteki-2">
                             <div className="content-header">
-                                Місце вигулу у мкр. Центр - Парк ім. Михайла Чекмана
+                                Ветеринарна аптека-клініка "Ivet"
                             </div>
                             <div className="content-location">
-                                Розташування: <strong>вул. Паркова 1</strong>
+                                Широкий спектр ветеринарних послуг:<br />
+                                -Лабораторні дослідження (крові і інше) <br />
+                                -Вакцинація<br />
+                                -Лабораторна діагностика, УЗД <br />
+                                -Терапія та хірургія дрібних та с\г тварин<br />
+                                -Стоматологічні послуги<br />
+                                Розташування: <strong>вул. Толстого 5а</strong><br />
+                                Графік роботи: з 9-00 до 19-00 без вихідних
                             </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div className="content">
+                    <div className="content-flex">
+                        <div className="content-photo">
+                            <img src={require("../img/apteki/vetastra.jpg")} />
+                        </div>
+                        <div className="content-text-apteki-2">
+                            <div className="content-header">
+                                Ветеринарна аптека-клініка "VetAstra"
+                            </div>
+                            <div className="content-location">
+                                Широкий спектр ветеринарних послуг:<br />
+                                -Вакцинація<br />
+                                -Лабораторна діагностика, УЗД <br />
+                                -Терапія та хірургія дрібних та с\г тварин<br />
+                                Номер телефону: +38-097-703-4384<br />
+                                Email: vetastra.km@gmail.com<br />
+                                Розташування: <strong>вул. Подільска 61</strong><br />
+                                Графік роботи: з 10-00 до 19-00 без вихідних
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="content">
+                    <div className="content-flex">
+                        <div className="content-photo">
+                            <img src={require("../img/apteki/aibolit.png")} />
+                        </div>
+                        <div className="content-text-apteki-2">
+                            <div className="content-header">
+                                Ветеринарна аптека-клініка "Aibolit"
+                            </div>
+                            <div className="content-location">
+                                Широкий спектр ветеринарних послуг:<br />
+                                -Хірургія (стерилізація, остеосинтез, новоутворення)<br />
+                                -Терапія *УЗД<br />
+                                -Акушерська допомога<br />
+                                -Оформлення документів<br />
+                                Номер телефону: +38-067-976-6753<br />
+                                Розташування: <strong>вул. Кам'янецька 74</strong><br />
+                                Графік роботи: з 9-00 до 19-00 без вихідних
+                            </div>
                         </div>
                     </div>
                 </div>
 
 
                 <div className="home-footer">
-                        Copyright Bohdan Tomchishen 2019
+                    Copyright Bohdan Tomchishen 2019
                     </div>
             </div>
         )

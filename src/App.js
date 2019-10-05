@@ -8,7 +8,6 @@ import Zoomapf from './components/zoomap'
 import Clubf from './components/club'
 import Shopf from './components/shop'
 import Shelterf from './components/shelter'
-import Hospitalf from './components/hospital'
 import Vistavkaf from './components/vistavka'
 import Avtomatf from './components/avtomat'
 
@@ -30,10 +29,7 @@ function App() {
               <Link to="/avtomat">Автомати з спец. пакетами</Link>
             </li>
             <li>
-              <Link to="/apteki">Вет Аптеки</Link>
-            </li>
-            <li>
-              <Link to="/hospital">Вет Лікарні</Link>
+              <Link to="/apteki">Вет Лікарні</Link>
             </li>
             <li>
               <Link to="/club">Клуби</Link>
@@ -54,9 +50,6 @@ function App() {
         <Switch>
           <Route path="/apteki">
             <Aptekif />
-          </Route>
-          <Route path="/hospital">
-            <Hospitalf />
           </Route>
           <Route path="/club">
             <Clubf />
