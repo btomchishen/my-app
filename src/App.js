@@ -84,6 +84,9 @@ function App() {
         </Switch>
       </div>
     </Router>
+
+    <a href="#" title="Вернуться к началу" class="topbutton">Вгору</a>
+
       </div>
 
   )
