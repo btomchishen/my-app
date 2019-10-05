@@ -7,7 +7,7 @@ class Homef extends React.Component {
         return (
             <div>
                <div className="home">
-                    <div className="home-header">
+                    <div className="header">
                         ЗООСВІТ м. ХМЕЛЬНИЦЬКОГО
                     </div>
                     <div className="home-slider">
@@ -48,8 +48,8 @@ class Homef extends React.Component {
                         </div>
                     <div className="map">
                         
-                       <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1TLV2f4Fr-NF_quHDd3B3IOWTe2Quj33F"
-                        width="1360" height="520"></iframe> 
+                    <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1TLV2f4Fr-NF_quHDd3B3IOWTe2Quj33F"
+                     width="1360" height="520"></iframe>
                     </div>
                     
 

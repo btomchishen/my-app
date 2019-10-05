@@ -15,6 +15,7 @@ import Avtomatf from './components/avtomat'
 
 function App() {
   return (
+    <div className="top">
 <Router>
       <div className="menu">
         <nav className="nav">
@@ -83,7 +84,7 @@ function App() {
         </Switch>
       </div>
     </Router>
-      
+      </div>
 
   )
 }
