@@ -1,3 +1,37 @@
+.App {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*.photo-react {
+  background-color: #222;
+  height: 218px;
+  padding: 20px;
+  color: white;
+}*/
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.signup{
+  text-align:center;
+}
+
+.sgn{
+  text-decoration: none;
+}
+
+
+
+
+
 html{
   margin: 0;
   padding: 0;
@@ -5,11 +39,21 @@ html{
 
 
 .nav ul{
-  height: 25px;
+  margin-top: 10px;
+  text-decoration: none;
+  height: 30px;
   display: flex;
   justify-content: space-around;
   margin-right: 50px;
 }
+.nav ul a{
+  text-decoration: none;
+}
+.nav ul a:active{
+  color: black;
+}
+
+
 
 .nav li{
   list-style-type: none;
@@ -91,6 +135,7 @@ html{
   text-align: center;
   padding-bottom: 5px;
   background-color: grey;
+  margin-bottom: -10px;
 }
 
 .content-flex{
@@ -107,7 +152,7 @@ html{
   width: 500px;
   height: 350px;
   border: 3px solid red;
-  margin-bottom: 75px;
+  margin-bottom: 70px;
 }
 .content-flex{
   margin-left: 250px;
@@ -121,7 +166,7 @@ html{
 
 .content-header{
   font-size: 30px;
-  padding-bottom: 25px;
+  padding-bottom: 35px;
 }
 
 .content-location{
@@ -138,13 +183,11 @@ html{
 .topbutton {
   width:50px;
   height: 25px;
-  border:2px solid red;
-  background:#f7f7f7;
   text-align:center;
   padding:10px;
   position:fixed;
-  bottom:50px;
-  right:50px;
+  bottom:25px;
+  right:25px;
   cursor:pointer;
   color:#333;
   font-family:verdana;
@@ -229,3 +272,32 @@ html{
   margin-top: -45px;
   font-size: 22px;
 }
+
+.content-location-shelter{
+  font-size: 24px;
+}
+
+.content-status{
+  width: 10px;
+	height: 10px;
+	background: rgb(26, 221, 26);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.signup-flex{
+  display: flex;
+  font-size: 35px;
+  font-weight: 600;
+  
+}
+
+.signup-flex li{
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+

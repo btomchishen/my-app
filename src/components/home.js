@@ -8,7 +8,7 @@ class Homef extends React.Component {
             <div>
                <div className="home">
                     <div className="header">
-                        ЗООСВІТ м. ХМЕЛЬНИЦЬКОГО
+                        ЗООСВІТ м. ХМЕЛЬНИЦЬКОГО                
                     </div>
                     <div className="home-slider">
                     <Carousel>

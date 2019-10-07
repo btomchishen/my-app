@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import Form from './form.js'
+import SignUp from './components/signup';
 import Aptekif from './components/apteki'
 import Homef from './components/home'
 import Zoomapf from './components/zoomap'
@@ -10,10 +11,12 @@ import Shopf from './components/shop'
 import Shelterf from './components/shelter'
 import Vistavkaf from './components/vistavka'
 import Avtomatf from './components/avtomat'
+import SignIn from './components/signin';
 
 
 function App() {
   return (
+
     <div className="top">
 <Router>
       <div className="menu">
@@ -41,10 +44,15 @@ function App() {
               <Link to="/shop">ЗооМагазини</Link>
             </li>
             <li>
-              <Link to="/shelter">ЗооЗахист</Link>
+              <Link to="/shelter">Перетримка</Link>
             </li>
             
+            <div className="signup">
+            <li><Link to="/signin">Вхід</Link></li>
+            <li><Link to="/signup">Реєстрація</Link></li>
+          </div>
           </ul>
+          
         </nav>
 
         <Switch>
@@ -69,6 +77,12 @@ function App() {
           <Route path="/vistavki">
             <Vistavkaf />
           </Route>
+          <Route path="/signin">
+            <SignIn />
+          </Route>
+          <Route path="/signup">
+            <SignUp />
+          </Route>
           <Route path="/">
             <Homef />
           </Route>
@@ -76,10 +90,12 @@ function App() {
           
         </Switch>
       </div>
+      
     </Router>
 
     <a href="#" title="Вернуться к началу" class="topbutton">Вгору</a>
-
+      
+      
       </div>
 
   )
